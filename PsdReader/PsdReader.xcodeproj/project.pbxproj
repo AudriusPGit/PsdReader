@@ -19,6 +19,14 @@
 		3A107D271B92F2AD0082BEE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A107D0F1B92F2AD0082BEE5 /* UIKit.framework */; };
 		3A107D2F1B92F2AD0082BEE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A107D2D1B92F2AD0082BEE5 /* InfoPlist.strings */; };
 		3A107D311B92F2AD0082BEE5 /* PsdReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A107D301B92F2AD0082BEE5 /* PsdReaderTests.m */; };
+		3A107D3E1B92F4DC0082BEE5 /* IvPSDDocument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A107D3D1B92F4DC0082BEE5 /* IvPSDDocument.mm */; };
+		3A107D411B92F4F30082BEE5 /* IvPSDDocumentManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A107D401B92F4F30082BEE5 /* IvPSDDocumentManager.mm */; };
+		3A107D441B92F5090082BEE5 /* IvParseUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A107D431B92F5090082BEE5 /* IvParseUtils.mm */; };
+		3A107D471B92F5330082BEE5 /* IvPSDHeader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A107D461B92F5330082BEE5 /* IvPSDHeader.mm */; };
+		3A107D4A1B92F5430082BEE5 /* IvPSDLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A107D491B92F5430082BEE5 /* IvPSDLayer.mm */; };
+		3A107D521B92F74B0082BEE5 /* IvDrawingListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A107D4F1B92F74B0082BEE5 /* IvDrawingListTableViewController.m */; };
+		3A107D531B92F74B0082BEE5 /* IvCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A107D511B92F74B0082BEE5 /* IvCanvasViewController.m */; };
+		3A107D541B92F84F0082BEE5 /* HireMe.psd in Resources */ = {isa = PBXBuildFile; fileRef = 3A107D3A1B92F2C20082BEE5 /* HireMe.psd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,20 @@
 		3A107D2E1B92F2AD0082BEE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A107D301B92F2AD0082BEE5 /* PsdReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsdReaderTests.m; sourceTree = "<group>"; };
 		3A107D3A1B92F2C20082BEE5 /* HireMe.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = HireMe.psd; sourceTree = "<group>"; };
+		3A107D3C1B92F4DC0082BEE5 /* IvPSDDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvPSDDocument.h; sourceTree = "<group>"; };
+		3A107D3D1B92F4DC0082BEE5 /* IvPSDDocument.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IvPSDDocument.mm; sourceTree = "<group>"; };
+		3A107D3F1B92F4F30082BEE5 /* IvPSDDocumentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvPSDDocumentManager.h; sourceTree = "<group>"; };
+		3A107D401B92F4F30082BEE5 /* IvPSDDocumentManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IvPSDDocumentManager.mm; sourceTree = "<group>"; };
+		3A107D421B92F5090082BEE5 /* IvParseUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvParseUtils.h; sourceTree = "<group>"; };
+		3A107D431B92F5090082BEE5 /* IvParseUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IvParseUtils.mm; sourceTree = "<group>"; };
+		3A107D451B92F5330082BEE5 /* IvPSDHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvPSDHeader.h; sourceTree = "<group>"; };
+		3A107D461B92F5330082BEE5 /* IvPSDHeader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IvPSDHeader.mm; sourceTree = "<group>"; };
+		3A107D481B92F5430082BEE5 /* IvPSDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvPSDLayer.h; sourceTree = "<group>"; };
+		3A107D491B92F5430082BEE5 /* IvPSDLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IvPSDLayer.mm; sourceTree = "<group>"; };
+		3A107D4E1B92F74B0082BEE5 /* IvDrawingListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvDrawingListTableViewController.h; sourceTree = "<group>"; };
+		3A107D4F1B92F74B0082BEE5 /* IvDrawingListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IvDrawingListTableViewController.m; sourceTree = "<group>"; };
+		3A107D501B92F74B0082BEE5 /* IvCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvCanvasViewController.h; sourceTree = "<group>"; };
+		3A107D511B92F74B0082BEE5 /* IvCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IvCanvasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +130,11 @@
 		3A107D111B92F2AD0082BEE5 /* PsdReader */ = {
 			isa = PBXGroup;
 			children = (
+				3A107D4E1B92F74B0082BEE5 /* IvDrawingListTableViewController.h */,
+				3A107D4F1B92F74B0082BEE5 /* IvDrawingListTableViewController.m */,
+				3A107D501B92F74B0082BEE5 /* IvCanvasViewController.h */,
+				3A107D511B92F74B0082BEE5 /* IvCanvasViewController.m */,
+				3A107D3B1B92F49F0082BEE5 /* Model */,
 				3A107D3A1B92F2C20082BEE5 /* HireMe.psd */,
 				3A107D1A1B92F2AD0082BEE5 /* IvAppDelegate.h */,
 				3A107D1B1B92F2AD0082BEE5 /* IvAppDelegate.m */,
@@ -144,6 +171,23 @@
 				3A107D2D1B92F2AD0082BEE5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A107D3B1B92F49F0082BEE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A107D451B92F5330082BEE5 /* IvPSDHeader.h */,
+				3A107D461B92F5330082BEE5 /* IvPSDHeader.mm */,
+				3A107D481B92F5430082BEE5 /* IvPSDLayer.h */,
+				3A107D491B92F5430082BEE5 /* IvPSDLayer.mm */,
+				3A107D3C1B92F4DC0082BEE5 /* IvPSDDocument.h */,
+				3A107D3D1B92F4DC0082BEE5 /* IvPSDDocument.mm */,
+				3A107D3F1B92F4F30082BEE5 /* IvPSDDocumentManager.h */,
+				3A107D401B92F4F30082BEE5 /* IvPSDDocumentManager.mm */,
+				3A107D421B92F5090082BEE5 /* IvParseUtils.h */,
+				3A107D431B92F5090082BEE5 /* IvParseUtils.mm */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A107D541B92F84F0082BEE5 /* HireMe.psd in Resources */,
 				3A107D161B92F2AD0082BEE5 /* InfoPlist.strings in Resources */,
 				3A107D1E1B92F2AD0082BEE5 /* Images.xcassets in Resources */,
 			);
@@ -242,8 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A107D3E1B92F4DC0082BEE5 /* IvPSDDocument.mm in Sources */,
+				3A107D411B92F4F30082BEE5 /* IvPSDDocumentManager.mm in Sources */,
+				3A107D441B92F5090082BEE5 /* IvParseUtils.mm in Sources */,
 				3A107D181B92F2AD0082BEE5 /* main.m in Sources */,
+				3A107D521B92F74B0082BEE5 /* IvDrawingListTableViewController.m in Sources */,
 				3A107D1C1B92F2AD0082BEE5 /* IvAppDelegate.m in Sources */,
+				3A107D531B92F74B0082BEE5 /* IvCanvasViewController.m in Sources */,
+				3A107D4A1B92F5430082BEE5 /* IvPSDLayer.mm in Sources */,
+				3A107D471B92F5330082BEE5 /* IvPSDHeader.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
